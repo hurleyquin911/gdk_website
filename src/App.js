@@ -19,7 +19,7 @@ function App() {
   const [activeCategory, setActiveCategory] = useState("Komputer");
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="gdk_website">
       <Routes>
         <Route path="/" element={<Home onCategoryChange={setActiveCategory} />} />
         <Route path="/services" element={<Services />} />
