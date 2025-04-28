@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Product from "./pages/Product";
+import Contact from "./pages/Contact";
+
+// BAGIAN KONTEN
+
+import ItShop from "./pages/ItShop"
+import ItService from "./pages/ItService"
+import NetSec from "./pages/NetSec"
+import DigitalMarketing from "./pages/DigitalMarketing"
+
+
 
 function App() {
+  const [activeCategory, setActiveCategory] = useState("Komputer");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home onCategoryChange={setActiveCategory} />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/itshop" element={<ItShop activeCategory={activeCategory} />} />
+        <Route path="/itservice" element={<ItService />} />
+        <Route path="/netservice" element={<NetSec />} />
+        <Route path="/digitalmarketing" element={<DigitalMarketing />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
