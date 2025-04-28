@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.138b87bb.css",
+    "main.js": "/static/js/main.9ceb19cb.js",
+    "static/media/1.jpg": "/static/media/1.e661a28452b0b1b2880e.jpg",
+    "static/media/Poster Jasa Service.png": "/static/media/Poster Jasa Service.c627fcd7c97f3bcd1ce4.png",
+    "static/media/1.png": "/static/media/1.bb0a8f30267203f27d0c.png",
+    "static/media/Poster Jual Produk.png": "/static/media/Poster Jual Produk.9909a3cb6e50683778ca.png",
+    "static/media/Paket CCTV & Pemasangan.png": "/static/media/Paket CCTV & Pemasangan.ab42333af6fdd7444e66.png",
+    "static/media/Banner.jpg": "/static/media/Banner.8dae0a4fcfb8a014a274.jpg",
+    "static/media/pingmaps.png": "/static/media/pingmaps.b1ec9a44580592b5bb95.png",
+    "static/media/bundlekomputer2.png": "/static/media/bundlekomputer2.9954c65924de0e386f99.png",
+    "static/media/webdevelop.png": "/static/media/webdevelop.c9bd4a34f1a46ab5b4e1.png",
+    "static/media/laptop.png": "/static/media/laptop.1a71206a89ca6b6881e9.png",
+    "static/media/kelolakonten.jpg": "/static/media/kelolakonten.9c4a41740eaf0baa3fc7.jpg",
+    "static/media/printer1.png": "/static/media/printer1.6a8c5ed532c373189dfc.png",
+    "static/media/Foto samping Service & Maintenance.jpg": "/static/media/Foto samping Service & Maintenance.93800c1f186fd93a6b26.jpg",
+    "static/media/branding.jpg": "/static/media/branding.91791ca49c229a9aba25.jpg",
+    "static/media/CCTV.jpg": "/static/media/CCTV.c24c18c04bad01b2d8c6.jpg",
+    "index.html": "/index.html",
+    "main.138b87bb.css.map": "/static/css/main.138b87bb.css.map",
+    "main.9ceb19cb.js.map": "/static/js/main.9ceb19cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.138b87bb.css",
+    "static/js/main.9ceb19cb.js"
+  ]
+}
