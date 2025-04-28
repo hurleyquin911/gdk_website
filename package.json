@@ -1,5 +1,6 @@
 {
   "name": "gdk_website",
+  "homepage": "https://hurleyquin911.github.io/gdk_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
