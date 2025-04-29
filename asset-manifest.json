@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gdk_website/static/css/main.138b87bb.css",
-    "main.js": "/gdk_website/static/js/main.cc2fb320.js",
+    "main.js": "/gdk_website/static/js/main.4ccd8378.js",
     "static/media/1.jpg": "/gdk_website/static/media/1.e661a28452b0b1b2880e.jpg",
     "static/media/Poster Jasa Service.png": "/gdk_website/static/media/Poster Jasa Service.c627fcd7c97f3bcd1ce4.png",
     "static/media/1.png": "/gdk_website/static/media/1.bb0a8f30267203f27d0c.png",
@@ -19,10 +19,10 @@
     "static/media/CCTV.jpg": "/gdk_website/static/media/CCTV.c24c18c04bad01b2d8c6.jpg",
     "index.html": "/gdk_website/index.html",
     "main.138b87bb.css.map": "/gdk_website/static/css/main.138b87bb.css.map",
-    "main.cc2fb320.js.map": "/gdk_website/static/js/main.cc2fb320.js.map"
+    "main.4ccd8378.js.map": "/gdk_website/static/js/main.4ccd8378.js.map"
   },
   "entrypoints": [
     "static/css/main.138b87bb.css",
-    "static/js/main.cc2fb320.js"
+    "static/js/main.4ccd8378.js"
   ]
 }
