@@ -1,28 +1,46 @@
 {
   "files": {
     "main.css": "/gdk_website/static/css/main.138b87bb.css",
-    "main.js": "/gdk_website/static/js/main.4ccd8378.js",
+    "main.js": "/gdk_website/static/js/main.7f3c7f41.js",
     "static/media/1.jpg": "/gdk_website/static/media/1.e661a28452b0b1b2880e.jpg",
     "static/media/Poster Jasa Service.png": "/gdk_website/static/media/Poster Jasa Service.c627fcd7c97f3bcd1ce4.png",
+    "static/media/Service Pc.png": "/gdk_website/static/media/Service Pc.c6c2e1b54e81c9c69b09.png",
+    "static/media/Pc Kasir.png": "/gdk_website/static/media/Pc Kasir.ce3b3f9c206f864c8e50.png",
+    "static/media/Service Proyektor.jpeg": "/gdk_website/static/media/Service Proyektor.d9f4ce242365b4468afd.jpeg",
     "static/media/1.png": "/gdk_website/static/media/1.bb0a8f30267203f27d0c.png",
     "static/media/Poster Jual Produk.png": "/gdk_website/static/media/Poster Jual Produk.9909a3cb6e50683778ca.png",
     "static/media/Paket CCTV & Pemasangan.png": "/gdk_website/static/media/Paket CCTV & Pemasangan.ab42333af6fdd7444e66.png",
     "static/media/Banner.jpg": "/gdk_website/static/media/Banner.8dae0a4fcfb8a014a274.jpg",
+    "static/media/axio pongo.png": "/gdk_website/static/media/axio pongo.3e005a832668c901f551.png",
+    "static/media/Service Laptop.jpg": "/gdk_website/static/media/Service Laptop.df2ab60f1139159dbe4a.jpg",
     "static/media/pingmaps.png": "/gdk_website/static/media/pingmaps.b1ec9a44580592b5bb95.png",
     "static/media/bundlekomputer2.png": "/gdk_website/static/media/bundlekomputer2.9954c65924de0e386f99.png",
+    "static/media/Thinkpad.jpg": "/gdk_website/static/media/Thinkpad.b5a64ce495a3779ef4ee.jpg",
     "static/media/webdevelop.png": "/gdk_website/static/media/webdevelop.c9bd4a34f1a46ab5b4e1.png",
     "static/media/laptop.png": "/gdk_website/static/media/laptop.1a71206a89ca6b6881e9.png",
     "static/media/kelolakonten.jpg": "/gdk_website/static/media/kelolakonten.9c4a41740eaf0baa3fc7.jpg",
     "static/media/printer1.png": "/gdk_website/static/media/printer1.6a8c5ed532c373189dfc.png",
+    "static/media/Lenovo Loq.png": "/gdk_website/static/media/Lenovo Loq.3e856b09edc5f29fae7a.png",
+    "static/media/HP-LaserJet-108W.png": "/gdk_website/static/media/HP-LaserJet-108W.6e8cd7dc9544e5493b98.png",
+    "static/media/Service Printer.jpg": "/gdk_website/static/media/Service Printer.03077fe84f702730e706.jpg",
     "static/media/Foto samping Service & Maintenance.jpg": "/gdk_website/static/media/Foto samping Service & Maintenance.93800c1f186fd93a6b26.jpg",
+    "static/media/Printer-Epson-L3210-3.jpg": "/gdk_website/static/media/Printer-Epson-L3210-3.1b4243400c2caf8933f9.jpg",
+    "static/media/ROG.jpg": "/gdk_website/static/media/ROG.c6b5677b2168f68e7453.jpg",
+    "static/media/elitebook.jpg": "/gdk_website/static/media/elitebook.2387fe4e93cd359ae0ab.jpg",
+    "static/media/latitude.jpg": "/gdk_website/static/media/latitude.2cb04849722c000df471.jpg",
+    "static/media/canon.jpg": "/gdk_website/static/media/canon.d5fce5bb8777d86f4f50.jpg",
+    "static/media/Ideapad Gaming.jpg": "/gdk_website/static/media/Ideapad Gaming.fe252b661c3114290f28.jpg",
     "static/media/branding.jpg": "/gdk_website/static/media/branding.91791ca49c229a9aba25.jpg",
+    "static/media/PC Server.jpg": "/gdk_website/static/media/PC Server.9b5957b6f10efb8bbf49.jpg",
+    "static/media/Asus TUF.jpg": "/gdk_website/static/media/Asus TUF.94f0026710041a7e8f84.jpg",
+    "static/media/Pc admin.jpg": "/gdk_website/static/media/Pc admin.4e00d4f9415d14c2723f.jpg",
     "static/media/CCTV.jpg": "/gdk_website/static/media/CCTV.c24c18c04bad01b2d8c6.jpg",
     "index.html": "/gdk_website/index.html",
     "main.138b87bb.css.map": "/gdk_website/static/css/main.138b87bb.css.map",
-    "main.4ccd8378.js.map": "/gdk_website/static/js/main.4ccd8378.js.map"
+    "main.7f3c7f41.js.map": "/gdk_website/static/js/main.7f3c7f41.js.map"
   },
   "entrypoints": [
     "static/css/main.138b87bb.css",
-    "static/js/main.4ccd8378.js"
+    "static/js/main.7f3c7f41.js"
   ]
 }
