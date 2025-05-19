@@ -12,11 +12,16 @@ import Logo from "../assets/img/1.jpg";
 import { Button } from "../components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
+import PerbaikanPc from "../assets/product/service/Service Pc.png"
+import PerbaikanLaptop from "../assets/product/service/Service Laptop.jpg"
+import PerbaikanPrinter from "../assets/product/service/Service Printer.jpg"
+import PerbaikanProyektor from "../assets/product/service/Service Proyektor.jpeg"
+
 const products = [
     {
         id: 1,
         name: "Jasa Perbaikan Komputer",
-        image: Gambar3,
+        image: PerbaikanPc,
         description: "Layanan perbaikan hardware dan software komputer, termasuk upgrade dan penggantian komponen untuk memastikan performa optimal.",
         layanan1: "Free Pengecekan",
         layanan2: "Layanan On Site",
@@ -27,7 +32,7 @@ const products = [
     {
         id: 2,
         name: "Jasa Perbaikan Laptop",
-        image: Gambar3,
+        image: PerbaikanLaptop,
         description: "Perbaikan berbagai masalah laptop seperti penggantian layar, keyboard, baterai, serta peningkatan performa.",
         layanan1: "Free Pengecekan",
         layanan2: "Layanan On Site",
@@ -38,7 +43,7 @@ const products = [
     {
         id: 3,
         name: "Jasa Pemeliharaan Printer & Scanner",
-        image: Gambar3,
+        image: PerbaikanPrinter,
         description: "Perawatan berkala dan perbaikan printer serta scanner untuk menjaga kualitas cetak dan kelancaran penggunaan.",
         layanan1: "Free Pengecekan",
         layanan2: "Layanan On Site",
@@ -49,7 +54,7 @@ const products = [
     {
         id: 4,
         name: "Jasa Perbaikan Proyektor",
-        image: Gambar3,
+        image: PerbaikanProyektor,
         description: "Layanan perbaikan dan perawatan proyektor, termasuk pembersihan lensa, penggantian lampu, dan perbaikan sistem optik.",
         layanan1: "Free Pengecekan",
         layanan2: "Layanan On Site",
@@ -142,7 +147,7 @@ const ItService = () => {
 
                                         <div className="pt-2 w-full">
                                             <a
-                                                href="https://wa.me/1234567890"
+                                                href="https://wa.me/6287755480454"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="bg-[#ffff] text-black border-2 border-black px-4 py-2 rounded-md transform transition-transform duration-500 hover:scale-105 active:scale-95 w-full block text-center"

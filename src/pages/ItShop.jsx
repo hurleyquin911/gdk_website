@@ -23,6 +23,25 @@ import Gambar1 from "../assets/img/bundlekomputer2.png"
 import Gambar2 from "../assets/img/laptop.png"
 import Gambar3 from "../assets/img/printer1.png"
 
+import PcAdmin from "../assets/product/ITShop/Pc admin.jpg"
+import PcKasir from "../assets/product/ITShop/Pc Kasir.png"
+import PcServer from "../assets/product/ITShop/PC Server.jpg"
+
+import LaptopTuf from "../assets/product/ITShop/Asus TUF.jpg"
+import LaptopRog from "../assets/product/ITShop/ROG.jpg"
+import LaptopLenovoLoq from "../assets/product/ITShop/Lenovo Loq.png"
+import LaptopLenovo from "../assets/product/ITShop/Ideapad Gaming.jpg"
+import LaptopAxioPongo from "../assets/product/ITShop/axio pongo.png"
+import LaptopLenovoThinkpad from "../assets/product/ITShop/Thinkpad.jpg"
+import HpEliteBook from "../assets/product/ITShop/elitebook.jpg"
+import DellLatitude from "../assets/product/ITShop/latitude.jpg"
+
+import PrinterHp from "../assets/product/ITShop/HP-LaserJet-108W.png"
+import PrinterCannon from "../assets/product/ITShop/canon.jpg"
+import PrinterEpson from "../assets/product/ITShop/Printer-Epson-L3210-3.jpg"
+
+
+
 const projects = [
     {
         num: "01",
@@ -39,26 +58,20 @@ const projects = [
                 id: 1,
                 name: "Komputer Admin",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: PcAdmin
             },
             {
                 id: 2,
-                name: "PC Gaming",
+                name: "PC Server",
                 price: "Rp 3.500.000",
-                image: productImg
+                image: PcServer
             },
             {
                 id: 3,
                 name: "PC Kasir",
                 price: "Rp 1.200.000",
-                image: productImg
+                image: PcKasir
             },
-            {
-                id: 4,
-                name: "PC Server",
-                price: "Rp 800.000",
-                image: productImg
-            }
         ]
     },
     {
@@ -76,49 +89,49 @@ const projects = [
                 id: 1,
                 name: "Asus TUF",
                 price: "Rp 15.000.000",
-                image: productImg
+                image: LaptopTuf
             },
             {
                 id: 2,
                 name: "ROG",
                 price: "Rp 10.000.000",
-                image: productImg
+                image: LaptopRog
             },
             {
                 id: 3,
                 name: "Lenovo LOQ",
                 price: "Rp 20.000.000",
-                image: productImg
+                image: LaptopLenovoLoq
             },
             {
                 id: 4,
                 name: "Lenovo Ideapad Gaming",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: LaptopLenovo
             },
             {
                 id: 5,
                 name: "Axio Pongo",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: LaptopAxioPongo
             },
             {
                 id: 6,
                 name: "Lenovo Thinkpad",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: LaptopLenovoThinkpad
             },
             {
                 id: 7,
                 name: "Hp Elitebook",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: HpEliteBook
             },
             {
                 id: 8,
                 name: "Dell latitude",
                 price: "Rp 12.000.000",
-                image: productImg
+                image: DellLatitude
             },
 
         ]
@@ -138,19 +151,19 @@ const projects = [
                 id: 1,
                 name: "Epson",
                 price: "Rp 3.000.000",
-                image: productImg
+                image: PrinterEpson
             },
             {
                 id: 2,
                 name: "Canon",
                 price: "Rp 2.500.000",
-                image: productImg
+                image: PrinterCannon
             },
             {
                 id: 3,
                 name: "Hp",
                 price: "Rp 4.000.000",
-                image: productImg
+                image: PrinterHp
             }
         ]
     },

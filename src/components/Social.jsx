@@ -2,23 +2,25 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import { FaYoutube, FaLinkedinIn, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaCartArrowDown } from "react-icons/fa";
 
 const socials = [
   {
-    icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/aditia-nur-lukman-49a16327a/",
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/griyadigital_kreasi/?hl=en",
   },
   {
-    icon: <FaInstagram />,
-    path: "https://www.instagram.com/quintweb00?igsh=Znc0ZnFwMW5kOTEy",
+    icon: <FaCartArrowDown />,
+    path: "https://linktr.ee/Griyadigital_kreasi"
   },
+
   {
     icon: <FaTiktok />,
-    path: "https://github.com/hurleyquin911",
+    path: "https://www.tiktok.com/@digital_kreasi?_t=8oE7v92sYcr&_r=1",
   },
   {
     icon: <FaYoutube />,
-    path: "https://github.com/hurleyquin911",
+    path: "https://www.youtube.com/@griyadigitalkreasi?si=SxJ2Qv2wyAR6uS7y",
   },
 ];
 

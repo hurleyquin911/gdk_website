@@ -48,27 +48,27 @@ const pingmaps = {
         "Kami menyediakan layanan pembuatan, optimasi, dan pemasangan titik lokasi di Google Maps untuk meningkatkan visibilitas bisnis Anda secara online.",
     items: [
         {
-            company: "Pin Gmaps",
+            company: "GDK - Source",
             position: "Pemasangan Titik Lokasi",
             duration: "2021 - Present",
         },
         {
-            company: "SEO Maps",
+            company: "GDK - Source",
             position: "Optimasi Google Maps",
             duration: "2022 - Present",
         },
         {
-            company: "Maps Barcode",
+            company: "GDK - Source",
             position: "Pembuatan Barcode Lokasi",
             duration: "2023 - Present",
         },
         {
-            company: "Lab Home Startup",
+            company: "GDK - Source",
             position: "Manajemen Data Lokasi",
             duration: "2023 - Present",
         },
         {
-            company: "Blog Startup",
+            company: "GDK - Source",
             position: "Konsultan SEO Maps",
             duration: "2023 - Present",
         },
@@ -83,22 +83,22 @@ const branding = {
         "Kami membantu membangun identitas visual dan strategi merek yang kuat untuk bisnis Anda melalui desain kreatif, branding digital, dan kampanye pemasaran.",
     items: [
         {
-            company: "TEST no 1",
+            company: "GDK - Source",
             position: "Desainer Branding",
             duration: "2021 - Present",
         },
         {
-            company: "Art Antimatic",
+            company: "GDK - Source",
             position: "UI/UX Designer",
             duration: "2022 - Present",
         },
         {
-            company: "Blog Startup",
+            company: "GDK - Source",
             position: "Konsultan Strategi Brand",
             duration: "2023 - Present",
         },
         {
-            company: "Lab Home Startup",
+            company: "GDK - Source",
             position: "Pengembangan Identitas Visual",
             duration: "2023 - Present",
         },
@@ -113,17 +113,17 @@ const kelolakonten = {
         "Kami menawarkan layanan manajemen konten kreatif untuk platform seperti YouTube dan TikTok, mulai dari pembuatan, pengelolaan, hingga optimasi konten.",
     items: [
         {
-            company: "YouTube",
+            company: "GDK - Source",
             position: "Manajemen Konten YouTube",
             duration: "2021 - Present",
         },
         {
-            company: "TikTok",
+            company: "GDK - Source",
             position: "Manajemen Konten TikTok",
             duration: "2022 - Present",
         },
         {
-            company: "Lab Home Startup",
+            company: "GDK - Source",
             position: "Content Strategy & Analytics",
             duration: "2023 - Present",
         },
@@ -138,27 +138,27 @@ const webdevelop = {
         "Kami menyediakan layanan pengembangan website profesional untuk berbagai kebutuhan, mulai dari e-commerce, company profile, hingga landing page.",
     items: [
         {
-            company: "E-Commerce",
+            company: "GDK - Source",
             position: "Fullstack Web Developer",
             duration: "2021 - Present",
         },
         {
-            company: "Profile Company",
+            company: "GDK - Source",
             position: "Frontend Developer",
             duration: "2022 - Present",
         },
         {
-            company: "Landing Page",
+            company: "GDK - Source",
             position: "SEO Specialist",
             duration: "2023 - Present",
         },
         {
-            company: "Advertiser Banner",
+            company: "GDK - Source",
             position: "Web Designer",
             duration: "2023 - Present",
         },
         {
-            company: "Blog Startup",
+            company: "GDK - Source",
             position: "SEO Consultant",
             duration: "2023 - Present",
         },
@@ -207,7 +207,7 @@ const Resume = () => {
                                     <p className="max-w-[600px] text-gray-500 mx-auto xl:mx-0">
                                         {pingmaps.description}
                                     </p>
-                                    <a href="https://wa.me/6285566556655" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/6287755480454" target="_blank" rel="noopener noreferrer">
                                         <Button
                                             variant="outline"
                                             size="lg"
@@ -254,7 +254,7 @@ const Resume = () => {
                                     <p className="max-w-[600px] text-gray-500 mx-auto xl:mx-0">
                                         {branding.description}
                                     </p>
-                                    <a href="https://wa.me/6285566556655" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/6287755480454" target="_blank" rel="noopener noreferrer">
                                         <Button
                                             variant="outline"
                                             size="lg"
@@ -301,7 +301,7 @@ const Resume = () => {
                                     <p className="max-w-[600px] text-gray-500 mx-auto xl:mx-0">
                                         {kelolakonten.description}
                                     </p>
-                                    <a href="https://wa.me/6285566556655" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/6287755480454" target="_blank" rel="noopener noreferrer">
                                         <Button
                                             variant="outline"
                                             size="lg"
@@ -348,7 +348,7 @@ const Resume = () => {
                                     <p className="max-w-[600px] text-gray-500 mx-auto xl:mx-0">
                                         {webdevelop.description}
                                     </p>
-                                    <a href="https://wa.me/6285566556655" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/6287755480454" target="_blank" rel="noopener noreferrer">
                                         <Button
                                             variant="outline"
                                             size="lg"

@@ -52,7 +52,7 @@ const SideKontak = () => {
 
               <div className="space-y-3">
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/6287755480454"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-green-500 text-white px-4 py-3 rounded-md transition-all duration-300 hover:bg-green-600 active:scale-95 text-sm md:text-base"
@@ -61,7 +61,7 @@ const SideKontak = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://linktr.ee/Griyadigital_kreasi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-blue-500 text-white px-4 py-3 rounded-md transition-all duration-300 hover:bg-blue-600 active:scale-95 text-sm md:text-base"
@@ -70,7 +70,7 @@ const SideKontak = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://www.instagram.com/griyadigital_kreasi/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-pink-500 text-white px-4 py-3 rounded-md transition-all duration-300 hover:bg-pink-600 active:scale-95 text-sm md:text-base"
@@ -79,7 +79,7 @@ const SideKontak = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://www.tiktok.com/@digital_kreasi?_t=8oE7v92sYcr&_r=1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-gray-800 text-white px-4 py-3 rounded-md transition-all duration-300 hover:bg-gray-900 active:scale-95 text-sm md:text-base"
@@ -88,7 +88,7 @@ const SideKontak = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://www.youtube.com/@griyadigitalkreasi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-red-500 text-white px-4 py-3 rounded-md transition-all duration-300 hover:bg-red-600 active:scale-95 text-sm md:text-base"
