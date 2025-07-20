@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import PageTransition from "../components/PageTransition";
 import SideKontak from "../components/SideKontak";
 import StairTransition from "../components/StairTransition";
+import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
       <StairTransition />
       <SideKontak />
       <PageTransition>{children}</PageTransition>
+      <Footer />
     </React.Fragment>
   );
 };
