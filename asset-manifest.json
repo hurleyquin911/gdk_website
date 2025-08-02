@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gdk_website/static/css/main.d91f8554.css",
-    "main.js": "/gdk_website/static/js/main.50d9c019.js",
+    "main.js": "/gdk_website/static/js/main.ab6bea2e.js",
     "static/media/1.jpg": "/gdk_website/static/media/1.e661a28452b0b1b2880e.jpg",
     "static/media/Poster Jasa Service.png": "/gdk_website/static/media/Poster Jasa Service.c627fcd7c97f3bcd1ce4.png",
     "static/media/Service Pc.png": "/gdk_website/static/media/Service Pc.c6c2e1b54e81c9c69b09.png",
@@ -13,6 +13,7 @@
     "static/media/Banner.jpg": "/gdk_website/static/media/Banner.8dae0a4fcfb8a014a274.jpg",
     "static/media/axio pongo.png": "/gdk_website/static/media/axio pongo.3e005a832668c901f551.png",
     "static/media/Service Laptop.jpg": "/gdk_website/static/media/Service Laptop.df2ab60f1139159dbe4a.jpg",
+    "static/media/pcgaming.png": "/gdk_website/static/media/pcgaming.d314626cfb9e16cc4417.png",
     "static/media/pingmaps.png": "/gdk_website/static/media/pingmaps.b1ec9a44580592b5bb95.png",
     "static/media/bundlekomputer2.png": "/gdk_website/static/media/bundlekomputer2.9954c65924de0e386f99.png",
     "static/media/Thinkpad.jpg": "/gdk_website/static/media/Thinkpad.b5a64ce495a3779ef4ee.jpg",
@@ -37,10 +38,10 @@
     "static/media/CCTV.jpg": "/gdk_website/static/media/CCTV.c24c18c04bad01b2d8c6.jpg",
     "index.html": "/gdk_website/index.html",
     "main.d91f8554.css.map": "/gdk_website/static/css/main.d91f8554.css.map",
-    "main.50d9c019.js.map": "/gdk_website/static/js/main.50d9c019.js.map"
+    "main.ab6bea2e.js.map": "/gdk_website/static/js/main.ab6bea2e.js.map"
   },
   "entrypoints": [
     "static/css/main.d91f8554.css",
-    "static/js/main.50d9c019.js"
+    "static/js/main.ab6bea2e.js"
   ]
 }
