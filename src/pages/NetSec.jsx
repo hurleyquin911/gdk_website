@@ -2,9 +2,10 @@ import React from 'react'
 import Layout from './Layout'
 import { motion } from "framer-motion";
 import Gambar from "../assets/img/1.jpg"
-import Gambar2 from "../assets/img/Banner.jpg"
 import { FaPhone } from "react-icons/fa";
-import Gambar3 from "../assets/img/Banner.jpg"
+import Gambar1 from "../assets/product/test1/cctv.jpeg"
+import Gambar2 from "../assets/product/test1/jaringan.jpg"
+import Gambar3 from "../assets/product/test1/server.jpg"
 import { Button } from "../components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Social from "../components/Social";
@@ -13,7 +14,7 @@ const products = [
     {
         id: 1,
         name: "Instalasi Jaringan Internet & Maintenance",
-        image: Gambar3,
+        image: Gambar2,
         description: "Layanan pemasangan dan perawatan jaringan internet untuk rumah, kantor, dan gedung, termasuk setting router, switch, dan kabel jaringan.",
         layanan1: "Survey Lokasi Gratis",
         layanan2: "Pemasangan di Tempat",
@@ -35,7 +36,7 @@ const products = [
     {
         id: 3,
         name: "Pemasangan CCTV & Maintenance",
-        image: Gambar3,
+        image: Gambar1,
         description: "Layanan pemasangan dan perawatan CCTV untuk meningkatkan keamanan properti Anda, termasuk setting kamera, perekam, dan pemantauan jarak jauh.",
         layanan1: "Survey Lokasi Gratis",
         layanan2: "Pemasangan di Tempat",

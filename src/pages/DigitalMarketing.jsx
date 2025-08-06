@@ -38,6 +38,31 @@ import Branding from "../assets/digitalmarketing/branding.jpg"
 import KelolaKonten from "../assets/digitalmarketing/kelolakonten.jpg"
 import WebDevelop from "../assets/digitalmarketing/webdevelop.png"
 
+// Gambar gmaps
+import Gambar1 from "../assets/product/1pingmaps/pemasangan titik.jpg"
+import Gambar2 from "../assets/product/1pingmaps/optimasi.jpg"
+import Gambar3 from "../assets/product/1pingmaps/gmaps barcode.png"
+import Gambar4 from "../assets/product/1pingmaps/manajemen data.png"
+import Gambar5 from "../assets/product/1pingmaps/Konsultan.jpg"
+
+//Gambar Branding
+import Gambars1 from "../assets/product/1branding/design brand.jpg"
+import Gambars2 from "../assets/product/1branding/ui ux design.jpg"
+import Gambars3 from "../assets/product/1branding/konsultan.jpeg"
+import Gambars4 from "../assets/product/1branding/visual branding.jpg"
+
+//Gambar Kelola Konten
+import Gambarx1 from "../assets/product/1kelolakonten/youtube.jpg"
+import Gambarx2 from "../assets/product/1kelolakonten/tiktok.png"
+import Gambarx3 from "../assets/product/1kelolakonten/konten strategi analis.jpg"
+
+//Gambar Web Develop
+import Gambare1 from "../assets/product/1webdev/full-stack-php-developer.jpg"
+import Gambare2 from "../assets/product/1webdev/front end.jpg"
+import Gambare3 from "../assets/product/1webdev/SEO.jpg"
+import Gambare4 from "../assets/product/1webdev/web design.jpg"
+import Gambare5 from "../assets/product/1webdev/SEO consultant.jpg"
+
 
 
 // Data Pin Gmaps
@@ -51,26 +76,31 @@ const pingmaps = {
             company: "GDK - Source",
             position: "Pemasangan Titik Lokasi",
             duration: "2021 - Present",
+            image: Gambar1
         },
         {
             company: "GDK - Source",
             position: "Optimasi Google Maps",
             duration: "2022 - Present",
+            image: Gambar2
         },
         {
             company: "GDK - Source",
             position: "Pembuatan Barcode Lokasi",
             duration: "2023 - Present",
+            image: Gambar3
         },
         {
             company: "GDK - Source",
             position: "Manajemen Data Lokasi",
             duration: "2023 - Present",
+            image: Gambar4
         },
         {
             company: "GDK - Source",
             position: "Konsultan SEO Maps",
             duration: "2023 - Present",
+            image: Gambar5
         },
     ],
 };
@@ -86,21 +116,25 @@ const branding = {
             company: "GDK - Source",
             position: "Desainer Branding",
             duration: "2021 - Present",
+            image: Gambars1
         },
         {
             company: "GDK - Source",
             position: "UI/UX Designer",
             duration: "2022 - Present",
+            image: Gambars2
         },
         {
             company: "GDK - Source",
             position: "Konsultan Strategi Brand",
             duration: "2023 - Present",
+            image: Gambars3
         },
         {
             company: "GDK - Source",
             position: "Pengembangan Identitas Visual",
             duration: "2023 - Present",
+            image: Gambars4
         },
     ],
 };
@@ -116,16 +150,19 @@ const kelolakonten = {
             company: "GDK - Source",
             position: "Manajemen Konten YouTube",
             duration: "2021 - Present",
+            image: Gambarx1
         },
         {
             company: "GDK - Source",
             position: "Manajemen Konten TikTok",
             duration: "2022 - Present",
+            image: Gambarx2
         },
         {
             company: "GDK - Source",
             position: "Content Strategy & Analytics",
             duration: "2023 - Present",
+            image: Gambarx3
         },
     ],
 };
@@ -141,26 +178,31 @@ const webdevelop = {
             company: "GDK - Source",
             position: "Fullstack Web Developer",
             duration: "2021 - Present",
+            image: Gambare1
         },
         {
             company: "GDK - Source",
             position: "Frontend Developer",
             duration: "2022 - Present",
+            image: Gambare2
         },
         {
             company: "GDK - Source",
             position: "SEO Specialist",
             duration: "2023 - Present",
+            image: Gambare3
         },
         {
             company: "GDK - Source",
             position: "Web Designer",
             duration: "2023 - Present",
+            image: Gambare4
         },
         {
             company: "GDK - Source",
             position: "SEO Consultant",
             duration: "2023 - Present",
+            image: Gambare5
         },
     ],
 };
@@ -217,22 +259,74 @@ const Resume = () => {
                                             <FaPhoneAlt className="text-xl" />
                                         </Button>
                                     </a>
-                                    <ScrollArea className="h-[400px]">
-                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ScrollArea className="h-[800px]">
+                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                             {pingmaps.items.map((item, index) => {
                                                 return (
                                                     <li
                                                         key={index}
-                                                        className="bg-gray-500 h-[184px] py-6 
-                    px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                        className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-800"
                                                     >
-                                                        <span className="text-black">{item.duration}</span>
-                                                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                                                            {item.position}
-                                                        </h3>
-                                                        <div className="flex items-center gap-3">
-                                                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                            <p className="text-white/60">{item.company}</p>
+                                                        <div className="m-2">
+                                                            {/* Gambar dengan overlay gradient */}
+                                                            <div className="relative w-full h-[240px] overflow-hidden">
+                                                                <img
+                                                                    src={item.image}
+                                                                    alt={item.position}
+                                                                    className="w-full h-full object-contain  group-hover:scale-110 transition-transform duration-500"
+                                                                />
+                                                                {/* Gradient overlay */}
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                                                                {/* Duration badge */}
+                                                                <div className="absolute top-4 right-4">
+                                                                    <span className="bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                                                                        {item.duration}
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+
+                                                            {/* Konten dengan spacing yang baik */}
+                                                            <div className="p-6 space-y-4">
+                                                                {/* Position title */}
+                                                                <h3 className="text-xl font-bold text-gray-900 dark:text-white leading-tight group-hover:text-accent transition-colors duration-200">
+                                                                    {item.position}
+                                                                </h3>
+
+                                                                {/* Company info dengan icon */}
+                                                                <div className="flex items-center gap-3">
+                                                                    <div className="flex items-center gap-2">
+                                                                        <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                                                                        <p className="text-gray-600 dark:text-gray-400 font-medium">
+                                                                            {item.company}
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                {/* Action button atau additional info */}
+                                                                <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+                                                                    <div className="flex items-center justify-between">
+                                                                        <span className="text-sm text-gray-500 dark:text-gray-400">
+                                                                            Service
+                                                                        </span>
+                                                                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                                            <svg
+                                                                                className="w-5 h-5 text-accent"
+                                                                                fill="none"
+                                                                                stroke="currentColor"
+                                                                                viewBox="0 0 24 24"
+                                                                            >
+                                                                                <path
+                                                                                    strokeLinecap="round"
+                                                                                    strokeLinejoin="round"
+                                                                                    strokeWidth={2}
+                                                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                                                />
+                                                                            </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </li>
                                                 );
@@ -264,22 +358,74 @@ const Resume = () => {
                                             <FaPhoneAlt className="text-xl" />
                                         </Button>
                                     </a>
-                                    <ScrollArea className="h-[400px]">
-                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ScrollArea className="h-[600px]">
+                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                             {branding.items.map((item, index) => {
                                                 return (
                                                     <li
                                                         key={index}
-                                                        className="bg-gray-500 h-[184px] py-6 
-                    px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                        className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-800"
                                                     >
-                                                        <span className="text-black">{item.duration}</span>
-                                                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                                                            {item.position}
-                                                        </h3>
-                                                        <div className="flex items-center gap-3">
-                                                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                            <p className="text-white/60">{item.company}</p>
+                                                        <div className="m-2">
+                                                            {/* Gambar dengan overlay gradient */}
+                                                            <div className="relative w-full h-[240px] overflow-hidden">
+                                                                <img
+                                                                    src={item.image}
+                                                                    alt={item.position}
+                                                                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                                                                />
+                                                                {/* Gradient overlay */}
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                                                                {/* Duration badge */}
+                                                                <div className="absolute top-4 right-4">
+                                                                    <span className="bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                                                                        {item.duration}
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+
+                                                            {/* Konten dengan spacing yang baik */}
+                                                            <div className="p-6 space-y-4">
+                                                                {/* Position title */}
+                                                                <h3 className="text-xl font-bold text-gray-900 dark:text-white leading-tight group-hover:text-accent transition-colors duration-200">
+                                                                    {item.position}
+                                                                </h3>
+
+                                                                {/* Company info dengan icon */}
+                                                                <div className="flex items-center gap-3">
+                                                                    <div className="flex items-center gap-2">
+                                                                        <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                                                                        <p className="text-gray-600 dark:text-gray-400 font-medium">
+                                                                            {item.company}
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                {/* Action button atau additional info */}
+                                                                <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+                                                                    <div className="flex items-center justify-between">
+                                                                        <span className="text-sm text-gray-500 dark:text-gray-400">
+                                                                            Brand Design
+                                                                        </span>
+                                                                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                                            <svg
+                                                                                className="w-5 h-5 text-accent"
+                                                                                fill="none"
+                                                                                stroke="currentColor"
+                                                                                viewBox="0 0 24 24"
+                                                                            >
+                                                                                <path
+                                                                                    strokeLinecap="round"
+                                                                                    strokeLinejoin="round"
+                                                                                    strokeWidth={2}
+                                                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                                                />
+                                                                            </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </li>
                                                 );
@@ -311,22 +457,74 @@ const Resume = () => {
                                             <FaPhoneAlt className="text-xl" />
                                         </Button>
                                     </a>
-                                    <ScrollArea className="h-[400px]">
-                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ScrollArea className="h-[600px]">
+                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                             {kelolakonten.items.map((item, index) => {
                                                 return (
                                                     <li
                                                         key={index}
-                                                        className="bg-gray-500 h-[184px] py-6 
-                    px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                        className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-800"
                                                     >
-                                                        <span className="text-black">{item.duration}</span>
-                                                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                                                            {item.position}
-                                                        </h3>
-                                                        <div className="flex items-center gap-3">
-                                                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                            <p className="text-white/60">{item.company}</p>
+                                                        <div className="m-2">
+                                                            {/* Gambar dengan overlay gradient */}
+                                                            <div className="relative w-full h-[240px] overflow-hidden">
+                                                                <img
+                                                                    src={item.image}
+                                                                    alt={item.position}
+                                                                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                                                                />
+                                                                {/* Gradient overlay */}
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                                                                {/* Duration badge */}
+                                                                <div className="absolute top-4 right-4">
+                                                                    <span className="bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                                                                        {item.duration}
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+
+                                                            {/* Konten dengan spacing yang baik */}
+                                                            <div className="p-6 space-y-4">
+                                                                {/* Position title */}
+                                                                <h3 className="text-xl font-bold text-gray-900 dark:text-white leading-tight group-hover:text-accent transition-colors duration-200">
+                                                                    {item.position}
+                                                                </h3>
+
+                                                                {/* Company info dengan icon */}
+                                                                <div className="flex items-center gap-3">
+                                                                    <div className="flex items-center gap-2">
+                                                                        <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                                                                        <p className="text-gray-600 dark:text-gray-400 font-medium">
+                                                                            {item.company}
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                {/* Action button atau additional info */}
+                                                                <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+                                                                    <div className="flex items-center justify-between">
+                                                                        <span className="text-sm text-gray-500 dark:text-gray-400">
+                                                                            Content Management
+                                                                        </span>
+                                                                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                                            <svg
+                                                                                className="w-5 h-5 text-accent"
+                                                                                fill="none"
+                                                                                stroke="currentColor"
+                                                                                viewBox="0 0 24 24"
+                                                                            >
+                                                                                <path
+                                                                                    strokeLinecap="round"
+                                                                                    strokeLinejoin="round"
+                                                                                    strokeWidth={2}
+                                                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                                                />
+                                                                            </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </li>
                                                 );
@@ -358,22 +556,74 @@ const Resume = () => {
                                             <FaPhoneAlt className="text-xl" />
                                         </Button>
                                     </a>
-                                    <ScrollArea className="h-[400px]">
-                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ScrollArea className="h-[600px]">
+                                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                             {webdevelop.items.map((item, index) => {
                                                 return (
                                                     <li
                                                         key={index}
-                                                        className="bg-gray-500 h-[184px] py-6 
-                    px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                        className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-800"
                                                     >
-                                                        <span className="text-black">{item.duration}</span>
-                                                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                                                            {item.position}
-                                                        </h3>
-                                                        <div className="flex items-center gap-3">
-                                                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                            <p className="text-white/60">{item.company}</p>
+                                                        <div className="m-2">
+                                                            {/* Gambar dengan overlay gradient */}
+                                                            <div className="relative w-full h-[240px] overflow-hidden">
+                                                                <img
+                                                                    src={item.image}
+                                                                    alt={item.position}
+                                                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                                />
+                                                                {/* Gradient overlay */}
+                                                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                                                                {/* Duration badge */}
+                                                                <div className="absolute top-4 right-4">
+                                                                    <span className="bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1 rounded-full text-sm font-medium shadow-lg">
+                                                                        {item.duration}
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+
+                                                            {/* Konten dengan spacing yang baik */}
+                                                            <div className="p-6 space-y-4">
+                                                                {/* Position title */}
+                                                                <h3 className="text-xl font-bold text-gray-900 dark:text-white leading-tight group-hover:text-accent transition-colors duration-200">
+                                                                    {item.position}
+                                                                </h3>
+
+                                                                {/* Company info dengan icon */}
+                                                                <div className="flex items-center gap-3">
+                                                                    <div className="flex items-center gap-2">
+                                                                        <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+                                                                        <p className="text-gray-600 dark:text-gray-400 font-medium">
+                                                                            {item.company}
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                {/* Action button atau additional info */}
+                                                                <div className="pt-2 border-t border-gray-100 dark:border-gray-800">
+                                                                    <div className="flex items-center justify-between">
+                                                                        <span className="text-sm text-gray-500 dark:text-gray-400">
+                                                                            Web Development
+                                                                        </span>
+                                                                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                                            <svg
+                                                                                className="w-5 h-5 text-accent"
+                                                                                fill="none"
+                                                                                stroke="currentColor"
+                                                                                viewBox="0 0 24 24"
+                                                                            >
+                                                                                <path
+                                                                                    strokeLinecap="round"
+                                                                                    strokeLinejoin="round"
+                                                                                    strokeWidth={2}
+                                                                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                                                                />
+                                                                            </svg>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </li>
                                                 );

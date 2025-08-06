@@ -23,6 +23,7 @@ import Gambar1 from "../assets/img/bundlekomputer2.png"
 import Gambar2 from "../assets/img/laptop.png"
 import Gambar3 from "../assets/img/printer1.png"
 
+import PcGaming from "../assets/img/pcgaming.png"
 import PcAdmin from "../assets/product/ITShop/Pc admin.jpg"
 import PcKasir from "../assets/product/ITShop/Pc Kasir.png"
 import PcServer from "../assets/product/ITShop/PC Server.jpg"
@@ -56,18 +57,24 @@ const projects = [
         products: [
             {
                 id: 1,
+                name: "Pc Gaming",
+                price: "Rp 12.000.000",
+                image: PcGaming
+            },
+            {
+                id: 2,
                 name: "Komputer Admin",
                 price: "Rp 12.000.000",
                 image: PcAdmin
             },
             {
-                id: 2,
+                id: 3,
                 name: "PC Server",
                 price: "Rp 3.500.000",
                 image: PcServer
             },
             {
-                id: 3,
+                id: 4,
                 name: "PC Kasir",
                 price: "Rp 1.200.000",
                 image: PcKasir
@@ -236,7 +243,7 @@ const Work = () => {
                                     <img
                                         src={product.image}
                                         alt={product.name}
-                                        className="w-full h-40 object-cover rounded-md mb-3"
+                                        className="w-full h-40 object-contain rounded-md mb-3"
                                     />
                                     <h4 className="text-xs font-semibold mb-1 text-gray-800">{product.name}</h4>
                                     <div className="pt-2 w-full">
